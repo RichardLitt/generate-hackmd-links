@@ -4,7 +4,7 @@
   "description": "Automatically generate hackmd pads for your markdown file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "bin": {
     "hackmd-link": "cli.js"
@@ -26,8 +26,10 @@
   },
   "homepage": "https://github.com/RichardLitt/generate-hackmd-links#readme",
   "dependencies": {
+    "assert": "^1.4.1",
     "bluebird": "^3.4.6",
     "meow": "^3.7.0",
+    "mocha": "^3.2.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1",
     "string-replace-async": "^1.2.0"
