@@ -10,6 +10,8 @@ npm i -S generate-hackmd-links
 
 ## Usage
 
+This will look for a Markdown link of the form `[whatever](HACKMD)`. It will replace `HACKMD` with a new [hackmd.io](http://hackmd.io/) pad.
+
 ```
 hackmd-link README.md
 ```

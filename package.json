@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "hackmd-link": "index.js"
+    "hackmd-link": "cli.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/RichardLitt/generate-hackmd-links#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
-    "escape-string-regexp": "^1.0.5",
+    "meow": "^3.7.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1",
     "string-replace-async": "^1.2.0"
