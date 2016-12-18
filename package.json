@@ -1,0 +1,35 @@
+{
+  "name": "generate-hackmd-links",
+  "version": "1.0.0",
+  "description": "Automatically generate hackmd pads for your markdown file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hackmd-link": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLitt/generate-hackmd-links.git"
+  },
+  "keywords": [
+    "hackmd",
+    "git",
+    "markdown",
+    "generate"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/generate-hackmd-links/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/generate-hackmd-links#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "escape-string-regexp": "^1.0.5",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "string-replace-async": "^1.2.0"
+  }
+}
