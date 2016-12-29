@@ -1,6 +1,6 @@
 {
   "name": "generate-hackmd-links",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Automatically generate hackmd pads for your markdown file",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "string-replace-async": "^1.2.0"
   },
   "coordinates": [
-    45.5191776,
-    -73.57893589999999
+    45.5192123,
+    -73.5788982
   ]
 }
