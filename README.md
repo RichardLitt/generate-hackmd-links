@@ -1,5 +1,7 @@
 # generate-hackmd-links
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/generate-hackmd-links.svg)](https://greenkeeper.io/)
+
 > Automatically generate hackmd pads for your markdown file
 
 ## Install
